@@ -16,9 +16,9 @@ const Modal = ({ show, onClose, children }) => {
     };
   }, [show]);
 
-  // if (!show) {
-  //   return null;
-  // }
+  if (!show) {
+    return null;
+  }
 
   return (
     <div className="modalWrapper">

@@ -47,15 +47,15 @@ const CardContainer = () => {
         At the forefront of assistance, our Junior Councils stand out as
         essential contributors, supporting and enhancing the endeavors of our
         broader councils, epitomizing the values of unity and collaboration.
-      </p>{" "}
+      </p>
       <div className="jc-card-wrapper">
-        {cardContents.map((card, index) => (
+        {cardContents.map((jc_card_container, index) => (
           <Card
             key={index}
-            name={card.name}
-            quote={card.quote}
-            image={card.image}
-            position={card.position}
+            name={jc_card_container.name}
+            quote={jc_card_container.quote}
+            image={jc_card_container.image}
+            position={jc_card_container.position}
           />
         ))}
       </div>
@@ -68,7 +68,7 @@ const Card = ({ name, quote, image, position }) => {
     <div className="jc-card-wrapper">
       <div className="jc-card">
         <img src={image} alt={name} className="jc-image" />
-        <div className="detail">
+        <div className="jc-detail">
           <h2 className="jc-name">{name}</h2>
           <p className="jc-position">{position}</p>
         </div>

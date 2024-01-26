@@ -31,7 +31,7 @@ const developers = () => {
                 </div>
               </div>
             </div>
-            <div class="content">
+            <div class="developers_content">
               <h2>Steve Fernandese</h2>
               <p>
                 UI/UX Designer <br />
@@ -58,7 +58,7 @@ const developers = () => {
                 </div>
               </div>
             </div>
-            <div class="content">
+            <div class="developers_content">
               <h2>Jitesh Dubey</h2>
               <p>
                 UI/UX Designer <br />
@@ -88,7 +88,7 @@ const developers = () => {
                 </div>
               </div>
             </div>
-            <div class="content">
+            <div class="developers_content">
               <h2>Tanay Agrawal</h2>
               <p>Developer and Coordinator</p>
               <div class="links">
@@ -115,7 +115,7 @@ const developers = () => {
                 </div>
               </div>
             </div>
-            <div class="content">
+            <div class="developers_content">
               <h2>Aditi Yadav</h2>
               <p>
                 UI/UX Designer <br />
@@ -145,7 +145,7 @@ const developers = () => {
                 </div>
               </div>
             </div>
-            <div class="content">
+            <div class="developers_content">
               <h2>Aniket Gupta</h2>
               <p>
                 UI/UX Designer <br />
@@ -175,7 +175,7 @@ const developers = () => {
                 </div>
               </div>
             </div>
-            <div class="content">
+            <div class="developers_content">
               <h2>Sumit Tiwari</h2>
               <p>
                 UI/UX Designer <br />

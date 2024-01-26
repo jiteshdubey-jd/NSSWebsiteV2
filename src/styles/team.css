@@ -202,7 +202,7 @@ body {
 }
 
 .front_content .prog-detail,
-.front_content .details {
+.front_content .depu_po_details {
   left: 50%;
   transform: translate(-50%, 320%);
   position: absolute;
@@ -217,11 +217,11 @@ body {
   padding: 1vh 1vw;
 }
 .prog-detail h1,
-.details h1 {
+.depu_po_details h1 {
   font-size: 2.5vw;
   font-weight: 500;
 }
-.details h3,
+.depu_po_details h3,
 .prog-detail h3 {
   font-size: 1.8vw;
   line-height: 1;
@@ -508,7 +508,7 @@ body {
     transform: translate(-50%, 140%);
   }
   .prog-detail h1,
-  .details h1 {
+  .depu_po_details h1 {
     font-size: 3vw;
     letter-spacing: -1px;
   }
@@ -567,11 +567,11 @@ body {
     transform: translate(-50%, 20%);
   }
   .prog-detail h1,
-  .details h1 {
+  .depu_po_details h1 {
     font-size: 4vw;
     letter-spacing: -1px;
   }
-  .details h3,
+  .depu_po_details h3,
   .prog-detail h3 {
     font-size: 2.5vw;
   }
@@ -677,16 +677,16 @@ body {
     margin-top: -15vh;
   }
   .front_content .prog-detail,
-  .front_content .details {
+  .front_content .depu_po_details {
     transform: translate(-50%, 125%);
     top: 30vh;
   }
   .prog-detail h1,
-  .details h1 {
+  .depu_po_details h1 {
     font-size: 3vw;
     letter-spacing: -1px;
   }
-  .details h3,
+  .depu_po_details h3,
   .prog-detail h3 {
     font-size: 2vw;
   }
@@ -839,12 +839,12 @@ body {
     border-radius: 3vh;
   }
   .prog-detail h1,
-  .details h1 {
+  .depu_po_details h1 {
     font-size: 2.5vw;
     letter-spacing: -1px;
     line-height: 1;
   }
-  .details h3,
+  .depu_po_details h3,
   .prog-detail h3 {
     font-size: 1.8vw;
   }
@@ -884,12 +884,12 @@ body {
     width: 70%;
     justify-content: space-evenly;
   }
-  .details h1 {
+  .depu_po_detailss h1 {
     font-size: 2.4vw;
     letter-spacing: -1px;
     line-height: 1;
   }
-  .details h3,
+  .depu_po_details h3,
   .prog-detail h3 {
     font-size: 1.4vw;
   }
@@ -1009,10 +1009,10 @@ body {
     top: 20vh;
   }
   .prog-detail h1,
-  .details h1 {
+  .depu_po_details h1 {
     font-size: 5vw;
   }
-  .details h3,
+  .depu_po_details h3,
   .prog-detail h3 {
     font-size: 0.9rem;
   }
@@ -1035,13 +1035,13 @@ body {
   .front_content .prog-detail {
     top: 18.5vh;
   }
-  .front_content .details {
+  .front_content .depu_po_details {
     top: 19vh;
   }
-  .details h1 {
+  .depu_po_details h1 {
     font-size: 5vw;
   }
-  .details h3 {
+  .depu_po_details h3 {
     font-size: 0.7rem;
   }
   .card .back h3 {
@@ -1063,7 +1063,7 @@ body {
   .front_content .prog-detail {
     top: 19vh;
   }
-  .front_content .details {
+  .front_content .depu_po_details {
     top: 19.5vh;
   }
 }

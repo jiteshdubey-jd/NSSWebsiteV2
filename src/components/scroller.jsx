@@ -125,20 +125,20 @@ const cards = [
 ];
 
 const Scroller = () => {
-  // const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
   const [selectedCardDetails, setSelectedCardDetails] = useState(null);
 
   const handleCardClick = (card) => {
-    // setShow(true);
+    setShow(true);
     setSelectedCardDetails(card);
   };
 
   return (
     <div>
       <Modal
-        // show={show}
+        show={show}
         onClose={() => {
-          // setShow(false);
+          setShow(false);
           setSelectedCardDetails(null);
         }}
       >

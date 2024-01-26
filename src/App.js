@@ -1,20 +1,13 @@
 import Team from "../src/pages/team";
-import Developer from "./pages/developers";
-import Testimonials from "./pages/Testimonial";
-import Gallery from "./components/gallery";
-import CardContainer from "./components/jccontainer";
-import Section from "./components/section";
-import BlogSlider from "./components/ImageGallery";
+// import Developer from "./pages/developers";
+// import Testimonials from "./pages/Testimonial";
+
 function App() {
   return (
     <div className="App">
-      <Developer />
+      {/* <Developer /> */}
       <Team />
-      <Gallery />
-      <CardContainer />
-      <Testimonials />
-      <Section />
-      <BlogSlider />
+      {/* <Testimonials /> */}
     </div>
   );
 }

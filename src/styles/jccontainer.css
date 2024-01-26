@@ -56,7 +56,7 @@ body {
   margin-bottom: 12px;
 }
 
-.detail {
+.jc-detail {
   display: flex;
   flex-direction: column;
   text-align: center;

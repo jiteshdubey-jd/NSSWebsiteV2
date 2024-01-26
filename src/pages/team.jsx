@@ -164,7 +164,7 @@ const Team = () => {
                       src={Images.Sajjan}
                       alt="Deputy Programme Officer SajjanKumar Lal"
                     />
-                    <div className="details">
+                    <div className="depu_po_details">
                       <h1>SajjanKumar Lal</h1>
                       <h3>-Deputy Programme Officer</h3>
                     </div>
@@ -198,7 +198,7 @@ const Team = () => {
                 <div className="front">
                   <div className="front_content">
                     <img src={Images.Jyoti} alt="" />
-                    <div className="details">
+                    <div className="depu_po_details">
                       <h1>Jyoti Vanawe</h1>
                       <h3>-Deputy Programme Officer</h3>
                     </div>
