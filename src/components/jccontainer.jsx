@@ -9,7 +9,7 @@ const CardContainer = () => {
       testament:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestias officia voluptas natus numquam recusandae laboriosam mollitia cum nam",
       image: `${Images.Aashi}`,
-      position: "Deputy Programme Officer",
+      position: "Asst. Admin Head",
       quote: "Collective Efforts Yield Triumph.",
     },
     {
@@ -17,7 +17,7 @@ const CardContainer = () => {
       testament:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestias officia voluptas natus numquam recusandae laboriosam mollitia cum nam",
       image: `${Images.Uday}`,
-      position: "Chairperson",
+      position: "Asst. Admin Head",
       quote:
         "Guided by a spirit of enthusiasm, navigating challenges with a helpful touch.",
     },
@@ -26,7 +26,7 @@ const CardContainer = () => {
       testament:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestias officia voluptas natus numquam recusandae laboriosam mollitia cum nam",
       image: `${Images.saachi}`,
-      position: "Council",
+      position: "Public Relation",
       quote: "Approaching changes with Eagerness.",
     },
     {
@@ -34,7 +34,7 @@ const CardContainer = () => {
       testament:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestias officia voluptas natus numquam recusandae laboriosam mollitia cum nam",
       image: `${Images.ved}`,
-      position: "Junior Council",
+      position: "Website Manager",
       quote:
         "In collective journeys, a helpful mindset and enthusiasm pave the way",
     },

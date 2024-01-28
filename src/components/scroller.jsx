@@ -7,8 +7,8 @@ import Images from "../assets/index";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faInstagram,
+  faLinkedin,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -19,7 +19,11 @@ const cards = [
     details: {
       name: "Atharva Pardeshi",
       desi: "Student Leader",
-      linkedin: "",
+      social: {
+        instagram: "https://www.instagram.com/.atharva731.",
+        linkedin: "https://www.linkedin.com/in/atharva-pardeshi-a54b9323a",
+        twitter: "",
+      },
       about:
         "Atharva showcases an exceptional ability to inspire and guide his peers toward shared goals. Through effective communication skills he fosters a culture of responsibility and accountability among students, building positive connections within the community. He cares about and values what others think, always listening to their ideas and concerns. His commitment to excellence significantly contributes to a work environment marked by harmony, consistently lifting the spirits of those under his leadership.",
     },
@@ -33,7 +37,11 @@ const cards = [
     details: {
       name: "Satyam Rudrakanthwar",
       desi: "Student Leader",
-      linkedin: "",
+      social: {
+        instagram: "https://www.instagram.com/r.satyam78",
+        linkedin: "https://www.linkedin.com/in/satyam-rudrakanthwar-a89219221",
+        twitter: "",
+      },
       about:
         "Satyam is a dedicated individual recognized for his inclusive and responsible nature. His remarkable ability to inspire peers has cultivated a robust culture of social responsibility within the team. As a creative wizard, he introduces innovation to his leadership, making a lasting impact beyond the immediate group. His commitment to excellence and creative problem-solving positions him as a valuable asset.",
     },
@@ -47,7 +55,11 @@ const cards = [
     details: {
       name: "Ruchika singh",
       desi: "Student Leader",
-      linkedin: "",
+      social: {
+        instagram: "https://www.instagram.com/ruchikasingh.2511",
+        linkedin: "https://www.linkedin.com/in/tanay-agarval",
+        twitter: "",
+      },
       about:
         "Ruchika demonstrates empathy, resilience, and approachability and can take everyone around uphill; one who can amplify our effect and create a positive change to contribute to the betterment of our community. She exhibits effective communication with her associates, subordinates and seniors. She has consistently shown an unwavering commitment to fostering positive change, inclusivity, and collaboration. She strives to and has effectively created an environment where every volunteer feels supported and heard.",
     },
@@ -61,7 +73,11 @@ const cards = [
     details: {
       name: "Harsh mishra",
       desi: "admin Head",
-      linkedin: "",
+      social: {
+        instagram: "https://www.instagram.com/harshhhh.5",
+        linkedin: "https://www.linkedin.com/in/harshhmishraa",
+        twitter: "",
+      },
       about:
         "Harsh embodies a unique mix of creativity, leadership, and resilience, tackling every challenge withunwavering commitment. He enjoys exploring new opportunities and achieves results with unmatched passion, thanks to his keen attention to detail and ability to navigate complexities effortlessly. Hisapproach to problem-solving showcases patience, determination, and hard work, creating a winning formula for success. As a natural leader and enthusiastic explorer, he moves forward, ensuring not only completion but mastery of every task within the specified time, showing incredible dedication.",
     },
@@ -74,7 +90,11 @@ const cards = [
     details: {
       name: "Ruchi Yadav",
       desi: "admin Head",
-      linkedin: "",
+      social: {
+        instagram: "https://www.instagram.com/ru.chi_y",
+        linkedin: "https://www.linkedin.com/in/ruchi-yadav-810506237",
+        twitter: "",
+      },
       about:
         "Ruchi is a confident, fierce, and headstrong individual wrapped in contagious optimism. Her clear and effective communication sets the foundation for firm decisions, emphasizing actions over mere words. A keen observer and inquisitive soul, she skillfully manages her time to produce outcomes with a lasting influence. As a patient and persuasive team player, she cultivates a positive and collaborative atmosphere, bringing out the best in others through effective communication and understanding. Her optimism acts as the driving force to confront challenges with an unwavering can-do attitude, facing adversities head-on with resilience and determination",
     },
@@ -88,7 +108,11 @@ const cards = [
     details: {
       name: "Gourav singh",
       desi: "Project Head",
-      linkedin: "",
+      social: {
+        instagram: "https://www.instagram.com/_gourav_singh_005",
+        linkedin: "https://www.linkedin.com/in/gourav-singh-39577624a",
+        twitter: "",
+      },
       about:
         "Transforming our initial concerns into strategic foresight and smart planning, Gourav skillfully organizes all parts of the current mission. With proactive and effective leadership, he turns challenges into chances for the team's growth, showing not only persistence but also a strategic mindset that goes beyond current issues. His careful attention to detail and advanced understanding of the project set the stage for success. Instead of just overseeing projects, he makes successful plans by foreseeing issues and paving the way for clever solutions. His strategy aims to go beyond expectations, making sure every project he leads is not only finished but also a symbol of smart thinking and skill. He is committed to achieving the best results.",
     },
@@ -102,7 +126,11 @@ const cards = [
     details: {
       name: "Tanay Agrawal",
       desi: "Project Head",
-      linkedin: "",
+      social: {
+        instagram: "https://www.instagram.com/_tanay_agarwal",
+        linkedin: "https://www.linkedin.com/in/tanay-agarval",
+        twitter: "",
+      },
       about:
         "Tanay is our go-to multitasking maestro, who seamlessly weaves through responsibilities, transforming daily tasks into a captivating symphony. His approach to challenges isn't just problem-solving; it's an opportunity to showcase his unparalleled teamwork spirit, turning every collaboration into a masterpiece. He is a conductor of success, directing a well-coordinated dance of roles and responsibilities with effortless mastery. In the face of challenges, he doesn't see roadblocks but pathways to new possibilities, infusing every project with a burst of creative energy. As a compass for team, Tanay guides us with direction, purpose, and a touch of adventure. His leadership isn't just about navigating; it's about charting a course that elevates to new heights.",
     },
@@ -116,7 +144,11 @@ const cards = [
     details: {
       name: "NandKumar Pandey",
       desi: "Finance Head",
-      linkedin: "",
+      social: {
+        instagram: "https://www.instagram.com/n_pandey_15",
+        linkedin: "https://www.linkedin.com/in/nandkumar-pandey-06baa523a",
+        twitter: "",
+      },
       about:
         "In the mix of finance and strategy, Nandkumar stands out as a strong, resourceful leader essential for our team's success. His intelligence, know-how, and ability to work well with others encourage teamwork. He is skilled at managing things, ensuring we use our resources wisely for our plans. His careful analysis of problems, combined with his resourcefulness, allows him to swiftly del well-though solutions, making him a key player in our ongoing success in the changing world.",
     },
@@ -148,14 +180,26 @@ const Scroller = () => {
             <p className="council_about">{selectedCardDetails.details.about}</p>
             <h4>Contact</h4>
             <div className="contact">
-              <Link to={selectedCardDetails.details.linkedin} className="link">
+              <Link
+                className="link"
+                to={selectedCardDetails.details.social.instagram}
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faInstagram} />
               </Link>
-              <Link className="link">
+              <Link
+                className="link"
+                to={selectedCardDetails.details.social.twitter}
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faXTwitter} />
               </Link>
-              <Link className="link">
-                <FontAwesomeIcon icon={faFacebook} />
+              <Link
+                to={selectedCardDetails.details.social.linkedin}
+                className="link"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
               </Link>
             </div>
           </div>
